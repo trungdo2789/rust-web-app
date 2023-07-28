@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cargo test",
+    "run": "cargo run",
+    "build": "cargo build",
+    "format": "cargo fmt",
+    "dev": "cargo watch -c -w src -x run"
   },
   "author": "",
   "license": "ISC",
